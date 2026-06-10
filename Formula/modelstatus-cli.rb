@@ -7,28 +7,28 @@
 class ModelstatusCli < Formula
   desc "Track which AI models your codebase uses and their lifecycle"
   homepage "https://llmstatus.ai"
-  version "0.1.71"
+  version "0.1.73"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://cdn.llmstatus.ai/cli/v0.1.71/modelstatus-cli-darwin-arm64"
-      sha256 "51a1e1bf5f9e547ed5b102eaf89f3dcd5b28953a402fa1d3f287085c9a1a26e9"
+      url "https://cdn.llmstatus.ai/cli/v0.1.73/modelstatus-cli-darwin-arm64"
+      sha256 "cbb98a1f3bc8389435d10a2f2244640f4d48177c14f71249574325de57b22726"
     end
     on_intel do
-      url "https://cdn.llmstatus.ai/cli/v0.1.71/modelstatus-cli-darwin-x64"
-      sha256 "ba382fde829f0a17cbb751a07f94ab8dae314414387df9deffbfa55268c6c6e1"
+      url "https://cdn.llmstatus.ai/cli/v0.1.73/modelstatus-cli-darwin-x64"
+      sha256 "6466ad6009e0c357c959f1c31f80d873c4e1d5d6c04abfd303e4dc139cf51754"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://cdn.llmstatus.ai/cli/v0.1.71/modelstatus-cli-linux-arm64"
-      sha256 "99cbbff38f34cf2863abf83a4fdb06d3251073630e2b80058e3d5d02ee84a964"
+      url "https://cdn.llmstatus.ai/cli/v0.1.73/modelstatus-cli-linux-arm64"
+      sha256 "3c3319f5d3a8bfb372e0d569276626f224fca793e9c6d30dfda30a87664bac12"
     end
     on_intel do
-      url "https://cdn.llmstatus.ai/cli/v0.1.71/modelstatus-cli-linux-x64"
-      sha256 "dfd1467f7b55c469ac11eaeb6ca63f10b7c22d6d5df4446d1663a64188809e77"
+      url "https://cdn.llmstatus.ai/cli/v0.1.73/modelstatus-cli-linux-x64"
+      sha256 "94c8084ac504d150d27aada41c25673906e8a46bbde36b8db9fc459d8519c5c3"
     end
   end
 
@@ -38,6 +38,6 @@ class ModelstatusCli < Formula
   end
 
   test do
-    assert_match "0.1.71", shell_output("#{bin}/mm --version")
+    assert_match "0.1.73", shell_output("#{bin}/mm --version")
   end
 end
