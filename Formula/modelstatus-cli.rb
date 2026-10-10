@@ -13,22 +13,22 @@ class ModelstatusCli < Formula
   on_macos do
     on_arm do
       url "https://llmstatus.ai/dl/cli/v0.1.93/modelstatus-cli-darwin-arm64"
-      sha256 "60559355f3607c3541f2644337ade64fe56b814ef0ba8cdcf946dc30387dd172"
+      sha256 "1ad1a07f7846032afd6e35b83da5a623d49dd7ffbd5b4249100b86f087a1818d"
     end
     on_intel do
       url "https://llmstatus.ai/dl/cli/v0.1.93/modelstatus-cli-darwin-x64"
-      sha256 "d5cb7f61c01b2d1d267992a9c5761556bfbe5126c96c8a56872736971629d3cc"
+      sha256 "dd33c3a404fdee5202d37bff0b2359a39ac03197dd1b0d36fa666cb31c917e92"
     end
   end
 
   on_linux do
     on_arm do
       url "https://llmstatus.ai/dl/cli/v0.1.93/modelstatus-cli-linux-arm64"
-      sha256 "f44e06b9299f998cab57918035c839bccbb999f0f07e36456e3abdfd3340a0c6"
+      sha256 "f8fefafb2a9fffe3e82b40de828cc53e155d6e282e16bab6f7ba53520670b9a5"
     end
     on_intel do
       url "https://llmstatus.ai/dl/cli/v0.1.93/modelstatus-cli-linux-x64"
-      sha256 "3aa92bf13d6e7ac6551389d52ad6a4cc9dbacf34397532e838f2d7ea14b50ff9"
+      sha256 "da7fa2e5224e8606d268f4c1e4b84060e9561ab96c0668bb4edbbd5ca86c6078"
     end
   end
 
